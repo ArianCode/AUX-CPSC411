@@ -1,0 +1,43 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+7508EF28938C079BDC9AE35F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+A39EF5AF6A1BEA9942DDDFF2 = { isa = PBXBuildFile; fileRef = 7508EF28938C079BDC9AE35F; };
+179A5B0176C48838F2EB5105 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+E5D6DBBA13ABA2CECC0474FF = { isa = PBXBuildFile; fileRef = 179A5B0176C48838F2EB5105; };
+6F00B0043618B78533B00649 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+11163EBC77CAD4D2399B69B6 = { isa = PBXBuildFile; fileRef = 6F00B0043618B78533B00649; };
+353D4C4A94DB33B46EB0AC18 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailViewController.swift; sourceTree = "<group>"; };
+E855A1DA3A7C1B119391C8F2 = { isa = PBXBuildFile; fileRef = 353D4C4A94DB33B46EB0AC18; };
+D74DC5D72BE192CBDFCDDEAB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongFormViewController.swift; sourceTree = "<group>"; };
+70159EAB185AB2C5B68CE2C5 = { isa = PBXBuildFile; fileRef = D74DC5D72BE192CBDFCDDEAB; };
+F555A04C0A3A8981D647421C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewController.swift; sourceTree = "<group>"; };
+C7DFA9CFA8E728BEF7CB35FE = { isa = PBXBuildFile; fileRef = F555A04C0A3A8981D647421C; };
+09F61F0FC73D14B7A5181A70 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+A04FAA10422B27AC5681DB27 = { isa = PBXBuildFile; fileRef = 09F61F0FC73D14B7A5181A70; };
+5F44B1BDD1CDA6E904B796C9 = { isa = PBXGroup; path = AUXMilestone1; sourceTree = "<group>"; children = (7508EF28938C079BDC9AE35F,179A5B0176C48838F2EB5105,6F00B0043618B78533B00649,353D4C4A94DB33B46EB0AC18,D74DC5D72BE192CBDFCDDEAB,F555A04C0A3A8981D647421C,09F61F0FC73D14B7A5181A70,); };
+F52DC4724A4239BDFB09FBEC = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A39EF5AF6A1BEA9942DDDFF2,E5D6DBBA13ABA2CECC0474FF,11163EBC77CAD4D2399B69B6,E855A1DA3A7C1B119391C8F2,70159EAB185AB2C5B68CE2C5,C7DFA9CFA8E728BEF7CB35FE,A04FAA10422B27AC5681DB27,); runOnlyForDeploymentPostprocessing = 0; };
+41D9525300F022916E9A0EA8 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+951DA7A21D3A28D788FC2E19 = { isa = PBXFileReference; explicitFileType = wrapper.application; path = AUXMilestone1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+AE7F314DEA27AE45CD3794AF = { isa = XCBuildConfiguration; name = Debug; buildSettings = { CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = edu.cpsc411.AUXMilestone1; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; }; };
+17949FF9A11884D96DB16119 = { isa = XCBuildConfiguration; name = Release; buildSettings = { CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = edu.cpsc411.AUXMilestone1; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; }; };
+1316DDD2D97616CEF91DD7F4 = { isa = XCConfigurationList; buildConfigurations = (AE7F314DEA27AE45CD3794AF,17949FF9A11884D96DB16119,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+9CA6DFB34607DE77EEA8BBD8 = { isa = PBXNativeTarget; name = AUXMilestone1; productName = AUXMilestone1; productReference = 951DA7A21D3A28D788FC2E19; productType = "com.apple.product-type.application"; buildConfigurationList = 1316DDD2D97616CEF91DD7F4; buildPhases = (F52DC4724A4239BDFB09FBEC,41D9525300F022916E9A0EA8,); buildRules = (); dependencies = (); };
+4E490A5A6FB05CDAC85749FE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkflowTests.swift; sourceTree = "<group>"; };
+351507467A84E06C2AF57309 = { isa = PBXBuildFile; fileRef = 4E490A5A6FB05CDAC85749FE; };
+3C15D5612D97092D2A502CB5 = { isa = PBXGroup; path = AUXMilestone1UITests; sourceTree = "<group>"; children = (4E490A5A6FB05CDAC85749FE,); };
+50F8697271158D228161AEC8 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (351507467A84E06C2AF57309,); runOnlyForDeploymentPostprocessing = 0; };
+1EC7263BA2207A69A8474B73 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+EB8DCC521256B3004752E1FD = { isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = AUXMilestone1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+626C53130B15BAAF63EE2331 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = edu.cpsc411.AUXMilestone1UITests; TEST_TARGET_NAME = AUXMilestone1; }; };
+904322452C82205FC21CA848 = { isa = XCBuildConfiguration; name = Release; buildSettings = { CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = edu.cpsc411.AUXMilestone1UITests; TEST_TARGET_NAME = AUXMilestone1; }; };
+5DA8548E2792785D2E97537C = { isa = XCConfigurationList; buildConfigurations = (626C53130B15BAAF63EE2331,904322452C82205FC21CA848,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+3590DF1806B4B56EE36E25CE = { isa = PBXNativeTarget; name = AUXMilestone1UITests; productName = AUXMilestone1UITests; productReference = EB8DCC521256B3004752E1FD; productType = "com.apple.product-type.bundle.ui-testing"; buildConfigurationList = 5DA8548E2792785D2E97537C; buildPhases = (50F8697271158D228161AEC8,1EC7263BA2207A69A8474B73,); buildRules = (); dependencies = (DE58E2B17C19600779694943,); };
+D799BAE6088A90139B415FCC = { isa = PBXContainerItemProxy; containerPortal = 98F54143AB4E86B28C3AFEE0; proxyType = 1; remoteGlobalIDString = 9CA6DFB34607DE77EEA8BBD8; remoteInfo = AUXMilestone1; };
+DE58E2B17C19600779694943 = { isa = PBXTargetDependency; target = 9CA6DFB34607DE77EEA8BBD8; targetProxy = D799BAE6088A90139B415FCC; };
+FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (951DA7A21D3A28D788FC2E19,EB8DCC521256B3004752E1FD,); };
+B28B7AF69320201D1CF206EB = { isa = PBXGroup; sourceTree = "<group>"; children = (5F44B1BDD1CDA6E904B796C9,3C15D5612D97092D2A502CB5,FBDC4F23F93125BBEEAE800C,); };
+89E1FD6268CC0F221A2BE178 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { SDKROOT = iphoneos; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = dwarf; }; };
+E6DE6C99132752C914FEF632 = { isa = XCBuildConfiguration; name = Release; buildSettings = { SDKROOT = iphoneos; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = dwarf; }; };
+49EA05A46B1A86EA7E413B43 = { isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178,E6DE6C99132752C914FEF632,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { LastUpgradeCheck = 2630; }; buildConfigurationList = 49EA05A46B1A86EA7E413B43; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en,Base); mainGroup = B28B7AF69320201D1CF206EB; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (9CA6DFB34607DE77EEA8BBD8,3590DF1806B4B56EE36E25CE,); };
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }
